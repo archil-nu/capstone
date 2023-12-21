@@ -1,3 +1,4 @@
+import React from "react";
 import HeroImage from "../assets/food/food4.webp";
 
 const Heading = (props) => {

@@ -1,9 +1,11 @@
 import Heading from "../../components/Heading";
 
-export default function Order() {
+const Order = () => {
   return (
     <>
       <Heading title="Order Online" />
     </>
   );
 }
+
+export default Order;
