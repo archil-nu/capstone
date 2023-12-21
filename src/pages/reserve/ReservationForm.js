@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-export default function ReservationForm(props) {
+
+const ReservationForm = (props) => {
   const [fName, setFName] = useState("");
   const [lName, setLName] = useState("");
   const [email, setEmail] = useState("");
@@ -171,3 +172,5 @@ export default function ReservationForm(props) {
     </form>
   );
 }
+
+export default ReservationForm;

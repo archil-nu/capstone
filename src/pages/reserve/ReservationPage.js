@@ -3,9 +3,9 @@ import { useReducer } from "react";
 import { fetchAPI } from "../../hooks/bookingsAPI";
 
 import Heading from "../../components/Heading";
-import ReservationForm from "./BookingForm";
+import ReservationForm from "./ReservationForm";
 
-const BookingPage = () => {
+const ReservationPage = () => {
   function updateTimes(date) {
     return fetchAPI(date);
   }
@@ -22,4 +22,4 @@ const BookingPage = () => {
   );
 }
 
-export default BookingPage;
+export default ReservationPage;
