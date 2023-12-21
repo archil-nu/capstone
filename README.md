@@ -2,12 +2,6 @@
 
 This is final capstone project app for the Meta Front-end developer certification on Coursera. This app is built from create-react-app template and uses React.
 
-### Home Page
-
-### About us
-
-### Booking Page
-
 ### Libraries & APIs:
 
 - react-router-dom
