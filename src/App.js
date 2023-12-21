@@ -1,14 +1,19 @@
-import React from 'react';
-import { Header, Nav, Main, Footer } from './components';
+import React from "react";
+import { BrowserRouter } from "react-router-dom";
 
-function App() {
+import Navbar from "./components/Navbar";
+import Routing from "./components/Routing";
+import Footer from "./components/Footer";
+
+import "./App.css";
+
+const App = () => {
   return (
-    <>
-      <Header />
-      <Nav />
-      <Main />
+    <BrowserRouter>
+      <Navbar />
+      <Routing />
       <Footer />
-    </>
+    </BrowserRouter>
   );
 }
 
