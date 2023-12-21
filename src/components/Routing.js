@@ -1,16 +1,15 @@
 import { Routes, Route } from "react-router-dom";
 
-import Homepage from "./pages/HomePage";
-import About from "./pages/About";
-import Reservation from "./pages/BookingPage";
-import Order from "./pages/Order";
-import Login from "./pages/Login";
-import Confirmation from "./pages/Confirmation";
+import Home from "../pages/home";
+import Reservation from "../pages/reserve/BookingPage";
+import Order from "../pages/order/Order";
+import Login from "../pages/login/Login";
+import Confirmation from "../pages/confirmation/Confirmation";
 
 const Routing = () => {
   return (
     <Routes>
-      <Route path="/" element={<Homepage />} />
+      <Route path="/" element={<Home />} />
       <Route path="/reservations" element={<Reservation />} />
       <Route path="/order" element={<Order />} />
       <Route path="/login" element={<Login />} />

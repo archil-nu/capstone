@@ -20,13 +20,13 @@ const Navigation = props => {
           </NavLink>
         </li>
       )}
-      <li>
-        <NavLink className="hover-effect" to="/">
+      <li className="hover-effect">
+        <NavLink to="/">
           <h1>Home</h1>
         </NavLink>
       </li>
-      <li>
-        <ScrollLink className="hover-effect" to="about" smooth={true} duration={500}>
+      <li className="hover-effect">
+        <ScrollLink to="about" href="#about" smooth={true} duration={500}>
           <h1>About</h1>
         </ScrollLink>
       </li>

@@ -47,7 +47,7 @@ button {
 }
 
 a:visited,
-ScrollLink:visited,
+Link:visited,
 a:link,
 Link:link {
   text-decoration: none;
@@ -101,6 +101,7 @@ Link:link {
 .hover-effect:hover {
   background-color: #f4ce14;
   transition: 0.25s;
+  cursor: pointer;
 }
 
 .nav-image {
